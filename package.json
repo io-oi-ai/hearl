@@ -1,0 +1,45 @@
+{
+  "name": "hearl",
+  "version": "0.1.0",
+  "description": "Hearl from the terminal and from AI agents: triage, assign and track X, Reddit and Hacker News posts about your product, plus an MCP bridge for Claude Desktop and other stdio clients.",
+  "type": "module",
+  "bin": {
+    "hearl": "bin/hearl.mjs",
+    "hearloop": "bin/hearl.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test src/*.test.mjs"
+  },
+  "keywords": [
+    "hearl",
+    "hearloop",
+    "mcp",
+    "cli",
+    "social listening",
+    "reddit",
+    "x",
+    "hacker news",
+    "ai agent"
+  ],
+  "homepage": "https://hearl.org/agents",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/io-oi-ai/hearl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/io-oi-ai/hearl/issues"
+  }
+}
